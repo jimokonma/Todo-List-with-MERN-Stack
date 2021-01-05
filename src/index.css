@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.App {
+  width: 100%;
+  max-width: 400px;
+  margin: auto;
+}
+
+.App .header {
+  padding: 10px;
+  background: #000;
+  color: white;
+  text-align: center;
+}
+
+.App form {
+  margin: 10px 0pc;
+}
+
+.App form input {
+  border: 1px solid lightgray;
+  height: 30px;
+}
+
+.App form button {
+  font-style: bold;
+  font-size: 20px;
+  width: 40px;
+  border: none;
+  background: #000;
+  color: white;
+}
+
+.App .welcome {
+  width: 90%;
+  margin: 50px auto;
+  color: #cecece;
+}
+
+.App .welcome h3 {
+  margin: 10px 0px;
+}
+
+.App .welcome p {
+  margin: 10px 0px;
+}
+
+.App .todo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #f4f4f4;
+  padding: 10px;
+  border-bottom: 1px #ccc dotted;
+}
+
+.App .todo p {
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+}
+
+.App .todo input {
+  -webkit-box-flex: 0.3;
+      -ms-flex: 0.3;
+          flex: 0.3;
+  width: 20px;
+  height: 20px;
+}
+
+.App .todo .deleteBtn {
+  width: 20px;
+  min-height: 40px;
+  -ms-flex-item-align: end;
+      -ms-grid-row-align: end;
+      align-self: end;
+  background: red;
+  color: white;
+  font-style: bold;
+  font-size: 20px;
+  border: none;
+  border-radius: 100%;
+  cursor: pointer;
+}
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.App {
+  width: 100%;
+  max-width: 400px;
+  margin: auto;
+  // Header
+  .header {
+    padding: 10px;
+    background: #000;
+    color: white;
+    text-align: center;
+    // }Todo Form Input
+  }
+  form {
+    margin: 10px 0pc;
+    input {
+      border: 1px solid lightgray;
+      height: 30px;
+    }
+    button {
+      font-style: bold;
+      font-size: 20px;
+      width: 40px;
+      border: none;
+      background: #000;
+      color: white;
+    }
+  }
+  // Welcome/How to note
+  .welcome {
+    width: 90%;
+    margin: 50px auto;
+    color: rgb(206, 206, 206);
+    h3 {
+      margin: 10px 0px;
+    }
+    p {
+      margin: 10px 0px;
+    }
+  }
+  // Todo Items
+  .todo {
+    display: flex;
+    background: #f4f4f4;
+    padding: 10px;
+    border-bottom: 1px #ccc dotted;
+    p {
+      flex: 2;
+    }
+    input {
+      flex: 0.3;
+      width: 20px;
+      height: 20px;
+    }
+    .deleteBtn {
+      width: 20px;
+      min-height: 40px;
+      align-self: end;
+      background: rgb(255, 0, 0);
+      color: white;
+      font-style: bold;
+      font-size: 20px;
+      border: none;
+      border-radius: 100%;
+      cursor: pointer;
+    }
+  }
+}
